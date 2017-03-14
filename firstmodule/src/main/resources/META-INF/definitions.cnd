@@ -1,0 +1,8 @@
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+
+[jnt:Judge] > jnt:content, jmix:basicContent
+ - Name (string)
+ - Photo (weakreference, picker[type='image'])
+ - Biography (string, richtext) scoreboost=2.0
+
